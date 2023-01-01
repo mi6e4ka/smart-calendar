@@ -2,7 +2,7 @@
 
 Tasks to be completed
 
- - [ ] write a smart timing clone on react js
+ - [+] write a smart timing clone on react js
    - [ ] create offline react app
    - [ ] create app for mobile
  - [ ] trello

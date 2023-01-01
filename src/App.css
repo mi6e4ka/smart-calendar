@@ -1,0 +1,37 @@
+.calendar {
+    border-collapse: collapse;
+    line-height: 90px;
+    font-weight: 10;
+    font-size: 120%;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+td {
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    transition: 0.2s;
+    outline: 1px solid #99999999;
+}
+.min {
+    font-size: 50%;
+}
+.down {
+    left: 5%;
+    position: relative;
+    top: 15%;
+}
+.up {
+    position: relative;
+    right: 5%;
+    bottom: 15%;
+}
+.weekend { 
+    color: red;
+}
+.weekend, .weekday, .otherMonth {
+    bottom: 3em;
+    position: relative;
+}
+.otherMonth {
+    color: #99999999;
+}
